@@ -1,0 +1,39 @@
+.promotion-card {
+  background-color: var(--color-third);
+  padding-bottom: 10px;
+}
+
+.promotion-card > .image > img {
+  max-width: 100%;
+}
+
+.promotion-card > .title {
+  font-size: var(--font-big);
+  font-weight: 500;
+  color: var(--color-secondary);
+  text-align: center;
+  margin: 20px 5px;
+}
+
+.promotion-card > .description {
+  font-size: var(--font-small);
+  color: var(--color-primary);
+  line-height: 1.2;
+  margin: 0 10px 20px;
+}
+
+.promotion-card > .buttons-container {
+  display: flex;
+  margin: 0 10px;
+}
+
+.promotion-card > .buttons-container > .btn-primary {
+  padding: 10px;
+}
+.promotion-card > .buttons-container > .btn-primary.-join {
+  flex-grow: 1;
+}
+
+.promotion-card > .buttons-container > .btn-primary:not(:last-child) {
+  margin-right: 20px;
+}

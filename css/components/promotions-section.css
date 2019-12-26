@@ -1,0 +1,9 @@
+.promotions-section {
+  width: 90%;
+  column-count: 1;
+  margin: 0 auto;
+}
+
+.promotions-section > .promotion-card:not(:last-child) {
+  margin-bottom: 10px;
+}
