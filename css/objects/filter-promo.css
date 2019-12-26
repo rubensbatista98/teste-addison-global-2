@@ -1,0 +1,8 @@
+.filter-promo {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+.filter-promo[data-active="true"] {
+  color: var(--color-light);
+  background-color: var(--color-primary);
+}

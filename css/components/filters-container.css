@@ -1,0 +1,17 @@
+.filters-container {
+  overflow: hidden;
+}
+
+.filters-container > .filter-promo {
+  flex-grow: 1;
+  text-align: center;
+  padding: 5px;
+}
+
+.filters-container > .filter-promo:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.filters-container > .filter-promo:last-child {
+  border-radius: 0 5px 5px 0;
+}

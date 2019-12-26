@@ -1,0 +1,8 @@
+.filters-navigation {
+  background-color: var(--color-light);
+  padding: 15px;
+}
+
+.filters-navigation > .filters-container {
+  display: flex;
+}
