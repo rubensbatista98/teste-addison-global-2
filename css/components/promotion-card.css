@@ -1,6 +1,6 @@
 .promotion-card {
   background-color: var(--color-third);
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .promotion-card > .image > img {
@@ -29,8 +29,6 @@
 
 .promotion-card > .buttons-container > .btn-primary {
   padding: 10px;
-}
-.promotion-card > .buttons-container > .btn-primary.-join {
   flex-grow: 1;
 }
 

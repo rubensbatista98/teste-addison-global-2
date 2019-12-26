@@ -1,9 +1,34 @@
 .promotions-section {
   width: 90%;
-  column-count: 1;
+  max-width: 600px;
   margin: 0 auto;
 }
 
-.promotions-section > .promotion-card:not(:last-child) {
-  margin-bottom: 10px;
+.promotions-section > .promotion-card {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 770px) {
+  .promotions-section {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .promotions-section > .promotion-card {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .promotions-section > .promotion-card {
+    width: 32%;
+  }
+}
+
+@media (min-width: 1550px) {
+  .promotions-section {
+    max-width: 1490px;
+  }
 }
