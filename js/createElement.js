@@ -4,9 +4,7 @@ function createElement({ tag, classes, content, attributes }) {
   const element = document.createElement(tag);
 
   if (classes && classes.length > 0) {
-    for (const className of classes) {
-      element.classList.add(className);
-    }
+    element.setAttribute("class", classes.join(" "));
   }
 
   if (content) element.textContent = content;

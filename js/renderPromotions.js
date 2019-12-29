@@ -25,13 +25,18 @@ function createPromotionCard(promotion) {
     name,
     description,
     heroImageUrl,
+    onlyNewCustomers,
     termsAndConditionsButtonText,
     joinNowButtonText
   } = promotion;
 
   const PromotionCardElement = createElement({
     tag: "div",
-    classes: ["promotion-card"]
+    classes: ["promotion-card"],
+    attributes: {
+      "data-id": "promotion",
+      "data-newCustomers": onlyNewCustomers
+    }
   });
 
   const promotionImage = createElement({ tag: "div", classes: ["image"] });
