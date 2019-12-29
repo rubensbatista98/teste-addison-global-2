@@ -17,3 +17,9 @@ Este projeto é baseado em um teste para cadidatos há uma vaga de desenvolvedor
 Criar uma página de promoções responsiva, que consiste em duas visualizações com base no filtro de promoções. Quando a página for carregada, deve ser feita uma requisição há o [endpoint](http://www.mocky.io/v2/5bc3b9cc30000012007586b7) que contém as informações das promoções. Depois que a requisição for finalizada, as promoções devem ser renderizadas para o usuário.
 
 Haverá dois tipos de filtros para as promoções na página, um filtro para novos usuários e um padrão que é de todas as promoções, as promoções serão exibidas para o usuário com base no filtro selecionado.
+
+## Imagens
+
+![Desktop](layouts/desktop.png "Desktop")
+
+![Mobile](layouts/mobile.png "Mobile")
